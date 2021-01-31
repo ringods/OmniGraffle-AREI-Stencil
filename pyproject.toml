@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "OmniGraffle-AREI-stencil"
+version = "0.1.0"
+description = ""
+authors = ["Ringo De Smet <ringo@de-smet.name>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+omnigraffle-stencil = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
