@@ -12,14 +12,13 @@ Since the conversion script is a Python package, this project creates a local pr
 
 ```sh
 $ poetry install
-...
-$ poetry run omnigraffle-stencil
 ```
 
-First download the upstream elements archive:
+First download the upstream elements archive at https://www.shadowhunter.co.uk/nl/downloads.php
+Then unzip, resize and convert the SVG images:
 
 ```sh
-$ wget https://www.shadowhunter.co.uk/nl/download.php?id=nl_arei_visio_svg_autocad_elmt.zip
 $ unzip nl_arei_visio_svg_autocad_elmt.zip
-$ poetry run omnigraffle-stencil --svg-dir ./SVG --stencil-file AREI.gstencil
+$ poetry run resize
+$ poetry run omnigraffle-stencil --svg-dir ./SVG-Resized --stencil-file AREI.gstencil
 ```

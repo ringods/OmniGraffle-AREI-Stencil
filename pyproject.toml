@@ -8,4 +8,5 @@ authors = ["Ringo De Smet <ringo@de-smet.name>"]
 python = "^3.9"
 omnigraffle-stencil = "^1.1.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.scripts]
+resize = "omnigraffle_arei_stencil.resizer:main"

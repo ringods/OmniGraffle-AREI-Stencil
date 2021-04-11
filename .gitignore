@@ -1,7 +1,18 @@
+# Intermediate Python files
+*.pyc
+
 # Ignore archive contents from upstream Shadowhunter
-AREI.gstencil
 AutoCAD
 QElectroTech
-SVG
+SVG/
 Visio
 nl_arei_visio_svg_autocad_elmt.zip
+
+# Ignore the intermediate folder with the resized SVG files
+SVG-Resized/
+
+# Ignore the converted OmniGraffle stencil and intermediate files
+AREI.gstencil
+data.plist
+
+.vscode
